@@ -2,9 +2,9 @@
 
 Storstockholms Lokaltrafiks (SL) APIs:
 
-- [Location lookup](https://www.trafiklab.se/api/trafiklab-apis/sl/stop-lookup/)
-- [Departures](https://www.trafiklab.se/api/trafiklab-apis/sl/departures-4/)
-- [Service alerts](https://www.trafiklab.se/api/trafiklab-apis/sl/service-alerts-2/)
+- [Location lookup](https://www.npmjs.com/package/@stockholm-transit/locations)
+- [Departures](https://www.npmjs.com/package/@stockholm-transit/departures)
+- [Service alerts](https://www.npmjs.com/package/@stockholm-transit/service-alerts)
 
 ## Development server
 

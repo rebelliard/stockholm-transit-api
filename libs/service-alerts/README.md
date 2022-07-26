@@ -1,8 +1,7 @@
-# @stockholm-transit/service-alerts
-
-[Storstockholms Lokaltrafiks (SL) Service alerts v2.0](https://www.trafiklab.se/api/trafiklab-apis/sl/service-alerts-2/):
+# 🇸🇪 Storstockholms Lokaltrafiks (SL) Service alerts API 🚆
 
 - With this API, you can get information about current and planned disturbances in SL traffic. With the API, you can ask questions about disturbances on, for example, a certain line or a certain type of traffic. The answer consists of disturbance messages with certain meta-information.
+- Trafiklab documentation is available [here](https://www.trafiklab.se/api/trafiklab-apis/sl/service-alerts-2/).
 
 ## Usage
 
@@ -43,3 +42,8 @@ Run `npx nx build @stockholm-transit/service-alerts` to build the library.
 ## Running unit tests
 
 Run `npx nx test @stockholm-transit/service-alerts` to execute the unit tests via [Jest](https://jestjs.io).
+
+## Related APIs
+
+- [Location lookup](https://www.npmjs.com/package/@stockholm-transit/locations)
+- [Service alerts](https://www.npmjs.com/package/@stockholm-transit/service-alerts)

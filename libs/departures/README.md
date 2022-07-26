@@ -1,8 +1,7 @@
-# @stockholm-transit/departures
-
-[Storstockholms Lokaltrafiks (SL) Departures v4.0](https://www.trafiklab.se/api/trafiklab-apis/sl/departures-4/):
+# 🇸🇪 Storstockholms Lokaltrafiks (SL) Departures 🚆
 
 - With this API, you can get real-time information regarding bus, metro, commuter train and local train.
+- Trafiklab documentation is available [here](https://www.trafiklab.se/api/trafiklab-apis/sl/departures-4/).
 
 ## Usage
 
@@ -32,3 +31,8 @@ Run `npx nx build @stockholm-transit/departures` to build the library.
 ## Running unit tests
 
 Run `npx nx test @stockholm-transit/departures` to execute the unit tests via [Jest](https://jestjs.io).
+
+## Related APIs
+
+- [Location lookup](https://www.npmjs.com/package/@stockholm-transit/locations)
+- [Service alerts](https://www.npmjs.com/package/@stockholm-transit/service-alerts)
