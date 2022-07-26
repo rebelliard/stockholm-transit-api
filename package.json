@@ -1,6 +1,6 @@
 {
   "name": "stockholm-transit",
-  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "start": "nx serve",
     "build": "nx run-many --target=build --all",
