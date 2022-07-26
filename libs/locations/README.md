@@ -20,12 +20,12 @@ locations.query(params).then((data) => res.send(data.ResponseData));
 
 ### LocationParameters
 
-| Parameter    | Type                                            | Required | Description                            | Default |
-| ------------ | ----------------------------------------------- | -------- | -------------------------------------- | ------- |
-| q            | string                                          | true     | The search string. (Max 20 characters) |         |
-| stationsOnly | boolean                                         | false    | If `true` only stops are returned.     | `true`  |
-| maxResults   | number                                          | false    | Maximum number of results from 0-50    | `10`    |
-| type         | [LocationParameterType](#LocationParameterType) | false    | Type filter for places.                | `"ALL"` |
+| Parameter    | Type                                            | Required | Description                              | Default |
+| ------------ | ----------------------------------------------- | -------- | ---------------------------------------- | ------- |
+| q            | string                                          | true     | The search string. (Max. 20 characters). |         |
+| stationsOnly | boolean                                         | false    | If `true` only stops are returned.       | `true`  |
+| maxResults   | number                                          | false    | Maximum number of results from 0-50.     | `10`    |
+| type         | [LocationParameterType](#LocationParameterType) | false    | Type filter for places.                  | `"ALL"` |
 
 ### LocationParameterType
 
