@@ -24,7 +24,7 @@
     "email": "me@rafael.do"
   },
   "dependencies": {
-    "express": "4.18.1"
+    "express": "4.17.2"
   },
   "keywords": [
     "api",
@@ -39,7 +39,7 @@
     "@nrwl/cli": "14.4.3",
     "@nrwl/detox": "14.4.3",
     "@nrwl/eslint-plugin-nx": "14.4.3",
-    "@nrwl/express": "^14.4.3",
+    "@nrwl/express": "^14.4.2",
     "@nrwl/jest": "14.4.3",
     "@nrwl/linter": "14.4.3",
     "@nrwl/node": "^14.4.3",
