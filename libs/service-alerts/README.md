@@ -26,7 +26,7 @@ serviceAlerts.query(params).then((data) => res.send(data.ResponseData));
 ### query
 
 ```javascript
-(params: DepartureParameters) => Promise<DepartureResponse | undefined>
+(params: ServiceAlertParameters) => Promise<ServiceAlertResponse | undefined>
 ```
 
 ## Types

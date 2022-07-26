@@ -26,7 +26,7 @@ locations.query(params).then((data) => res.send(data.ResponseData));
 ### query
 
 ```javascript
-(params: DepartureParameters) => Promise<DepartureResponse | undefined>
+(params: LocationParameters) => Promise<LocationResponse | undefined>
 ```
 
 ## Types
