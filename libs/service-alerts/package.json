@@ -1,7 +1,7 @@
 {
   "name": "@stockholm-transit/service-alerts",
   "description": "API for Storstockholms Lokaltrafiks' service alerts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "commonjs",
   "license": "MIT",
   "author": {
