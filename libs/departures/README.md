@@ -15,7 +15,29 @@ const params: DepartureParameters = { siteId: '9001' };
 departures.query(params).then((data) => res.send(data.ResponseData));
 ```
 
+## Functions
+
+### init
+
+```javascript
+(config: StockholmBaseConfig) => void
+```
+
+### query
+
+```javascript
+(params: DepartureParameters) => Promise<DepartureResponse | undefined>
+```
+
 ## Types
+
+### StockholmBaseConfig
+
+| Parameter | Type   | Required | Description        |
+| --------- | ------ | -------- | ------------------ |
+| apiKey    | string | true     | Trafiklab API key. |
+
+- Read how to generate Trafiklab API keys [here](https://www.trafiklab.se/docs/using-trafiklab/getting-api-keys/).
 
 ### DepartureParameters
 
