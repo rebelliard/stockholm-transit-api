@@ -28,5 +28,5 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run type-check
-      - run: npm run test --code-coverage
+      - run: npm run test -- --ci
       - run: npm run build
