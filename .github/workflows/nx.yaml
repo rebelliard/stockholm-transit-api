@@ -1,0 +1,32 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see:
+# - https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# - https://nx.dev/ci/monorepo-ci-github-actions
+name: Lint, test and build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
+      - name: Use Node.js ${{ matrix.node-version }}
+        - uses: nrwl/nx-set-shas@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npx nx affected --target=type-check --all --parallel=3
+      - run: npx nx affected --target=test       --all --parallel=3 --ci --code-coverage
+      - run: npx nx affected --target=build      --all --parallel=3
