@@ -1,0 +1,21 @@
+{
+  "name": "@stockholm-transit/shared",
+  "description": "Shared library for @stockholm-transit/*",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": {
+    "name": "Rafael Belliard",
+    "email": "me@rafael.do",
+    "url": "https://rafael.do"
+  },
+  "homepage": "https://github.com/rebelliard/stockholm-transit-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rebelliard/stockholm-transit-api"
+  },
+  "bugs": {
+    "url": "https://github.com/rebelliard/stockholm-transit-api/issues",
+    "email": "me@rafael.do"
+  }
+}

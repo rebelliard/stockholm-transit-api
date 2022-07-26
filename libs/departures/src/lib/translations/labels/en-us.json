@@ -1,0 +1,13 @@
+{
+  "departure_GroupOfLine": "Group of line",
+  "departure_DisplayTime": "Departure time",
+  "departure_TransportMode": "Traffic type",
+  "departure_LineNumber": "Line number",
+  "departure_Destination": "Destination",
+  "departure_StopAreaName": "Stop",
+  "departure_StopAreaNumber": "Stop area number",
+  "departure_StopPointNumber": "Stop point number",
+  "departure_StopPointDesignation": "Stop point designation",
+  "departure_TimeTabledDateTime": "Scheduled departure time",
+  "departure_ExpectedDateTime": "Expected departure time"
+}

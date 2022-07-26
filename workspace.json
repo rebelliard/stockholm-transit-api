@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "example-api": "apps/example-api",
+    "@stockholm-transit/departures": "libs/departures",
+    "@stockholm-transit/locations": "libs/locations",
+    "@stockholm-transit/service-alerts": "libs/service-alerts",
+    "@stockholm-transit/shared": "libs/shared"
+  }
+}

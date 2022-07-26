@@ -1,0 +1,70 @@
+{
+  "name": "stockholm-transit",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx run-many --target=build --all",
+    "lint": "nx run-many --target=lint --all",
+    "type-check": "nx run-many --target=type-check --all",
+    "test": "nx run-many --target=test --all"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rafael Belliard",
+    "email": "me@rafael.do",
+    "url": "https://rafael.do"
+  },
+  "homepage": "https://github.com/rebelliard/stockholm-transit-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rebelliard/stockholm-transit-api"
+  },
+  "bugs": {
+    "url": "https://github.com/rebelliard/stockholm-transit-api/issues",
+    "email": "me@rafael.do"
+  },
+  "dependencies": {
+    "express": "4.18.1"
+  },
+  "keywords": [
+    "api",
+    "stockholm",
+    "storstockholms",
+    "trafiklab",
+    "train",
+    "metro",
+    "public transit"
+  ],
+  "devDependencies": {
+    "@nrwl/cli": "14.4.3",
+    "@nrwl/detox": "14.4.3",
+    "@nrwl/eslint-plugin-nx": "14.4.3",
+    "@nrwl/express": "^14.4.3",
+    "@nrwl/jest": "14.4.3",
+    "@nrwl/linter": "14.4.3",
+    "@nrwl/node": "^14.4.3",
+    "@nrwl/web": "14.4.3",
+    "@nrwl/workspace": "14.4.3",
+    "@testing-library/jest-dom": "5.16.4",
+    "@types/aws-lambda": "^8.10.101",
+    "@types/express": "4.17.13",
+    "@types/jest": "27.4.1",
+    "@types/node": "16.11.7",
+    "@types/node-fetch": "^2.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "babel-jest": "27.5.1",
+    "eslint": "~8.20.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "jest": "27.5.1",
+    "jest-circus": "27.5.1",
+    "node-fetch": "^2.6.7",
+    "nx": "14.4.3",
+    "prettier": "^2.6.2",
+    "ts-jest": "27.1.4",
+    "ts-node": "~10.9.1",
+    "typescript": "~4.7.2"
+  }
+}
