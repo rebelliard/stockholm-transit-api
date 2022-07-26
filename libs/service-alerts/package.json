@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/rebelliard/stockholm-transit-api/issues",
     "email": "me@rafael.do"
-  }
+  },
+  "keywords": [
+    "api",
+    "stockholm",
+    "storstockholms",
+    "trafiklab",
+    "train",
+    "metro",
+    "public transit"
+  ]
 }
