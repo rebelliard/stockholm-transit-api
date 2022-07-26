@@ -20,6 +20,8 @@ Expected environment variables:
 - `STOCKHOLM_DEPARTURES_API_KEY`
 - `STOCKHOLM_SERVICE_ALERTS_API_KEY`
 
+An example API server is available [here](https://github.com/rebelliard/stockholm-transit-api/blob/main/apps/example-api/src/main.ts)
+
 ## Publishing
 
-See [guide](https://blog.nrwl.io/publishing-react-libraries-made-easy-d5b3d013deba#:~:text=Publishing%20to%20npm) on publishing an NX library to NPM.
+A guide on publishing an NX library to NPM is available [here](https://blog.nrwl.io/publishing-react-libraries-made-easy-d5b3d013deba#:~:text=Publishing%20to%20npm).
