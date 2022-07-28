@@ -1,7 +1,7 @@
 {
   "name": "@stockholm-transit/departures",
   "description": "API for Storstockholms Lokaltrafiks' departures",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "commonjs",
   "license": "MIT",
   "author": {

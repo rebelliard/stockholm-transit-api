@@ -1,7 +1,7 @@
 {
   "name": "@stockholm-transit/locations",
   "description": "API for Storstockholms Lokaltrafiks' locations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "commonjs",
   "license": "MIT",
   "author": {
