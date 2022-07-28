@@ -1,5 +1,7 @@
 # 🇸🇪 Stockholm Transit APIs 🚆
 
+[![CI](https://github.com/rebelliard/stockholm-transit-api/actions/workflows/ci.yml/badge.svg)](https://github.com/rebelliard/stockholm-transit-api/actions/workflows/ci.yml)
+
 Storstockholms Lokaltrafiks (SL) APIs:
 
 - [Location lookup](https://www.npmjs.com/package/@stockholm-transit/locations)
