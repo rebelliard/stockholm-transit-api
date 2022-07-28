@@ -23,9 +23,6 @@
     "url": "https://github.com/rebelliard/stockholm-transit-api/issues",
     "email": "me@rafael.do"
   },
-  "dependencies": {
-    "express": "4.17.2"
-  },
   "keywords": [
     "api",
     "stockholm",
@@ -35,6 +32,11 @@
     "metro",
     "public transit"
   ],
+  "dependencies": {
+    "express": "4.17.2",
+    "node-fetch": "^2.6.7",
+    "tslib": "^2.4.0"
+  },
   "devDependencies": {
     "@nrwl/cli": "14.4.3",
     "@nrwl/detox": "14.4.3",
@@ -60,7 +62,6 @@
     "eslint-plugin-jsx-a11y": "6.6.1",
     "jest": "27.5.1",
     "jest-circus": "27.5.1",
-    "node-fetch": "^2.6.7",
     "nx": "14.4.3",
     "prettier": "^2.6.2",
     "ts-jest": "27.1.4",
