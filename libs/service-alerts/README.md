@@ -12,7 +12,7 @@ import { ServiceAlertParameters } from '@stockholm-transit/service-alerts';
 serviceAlerts.init({ apiKey: process.env.STOCKHOLM_SERVICE_ALERTS_API_KEY });
 
 const params: ServiceAlertParameters = { siteId: '9001' };
-serviceAlerts.query(params).then((data) => res.send(data.ResponseData));
+serviceAlerts.query(params).then((data) => res.send(data));
 ```
 
 ## Functions

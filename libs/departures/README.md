@@ -12,7 +12,7 @@ import { DepartureParameters } from '@stockholm-transit/departures';
 departures.init({ apiKey: process.env.STOCKHOLM_DEPARTURES_API_KEY });
 
 const params: DepartureParameters = { siteId: '9001' };
-departures.query(params).then((data) => res.send(data.ResponseData));
+departures.query(params).then((data) => res.send(data));
 ```
 
 ## Functions

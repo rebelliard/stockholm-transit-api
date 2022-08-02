@@ -12,7 +12,7 @@ import { LocationParameters } from '@stockholm-transit/locations';
 locations.init({ apiKey: process.env.STOCKHOLM_LOCATIONS_API_KEY });
 
 const params: LocationParameters = { q: 'Stockholm', maxResults: 10 };
-locations.query(params).then((data) => res.send(data.ResponseData));
+locations.query(params).then((data) => res.send(data));
 ```
 
 ## Functions

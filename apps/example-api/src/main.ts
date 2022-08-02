@@ -32,7 +32,7 @@ app.get('/api/locations', (req, res) => {
 
   console.log(`- ${req.protocol}://${req.headers.host}${req.originalUrl}`);
 
-  locations.query(params).then((data) => res.send(data.ResponseData));
+  locations.query(params).then((data) => res.send(data));
 });
 
 app.get('/api/departures', (req, res) => {
@@ -45,7 +45,7 @@ app.get('/api/departures', (req, res) => {
 
   console.log(`- ${req.protocol}://${req.headers.host}${req.originalUrl}`);
 
-  departures.query(params).then((data) => res.send(data.ResponseData));
+  departures.query(params).then((data) => res.send(data));
 });
 
 app.get('/api/service-alerts', (req, res) => {
@@ -60,7 +60,7 @@ app.get('/api/service-alerts', (req, res) => {
 
   console.log(`- ${req.protocol}://${req.headers.host}${req.originalUrl}`);
 
-  serviceAlerts.query(params).then((data) => res.send(data.ResponseData));
+  serviceAlerts.query(params).then((data) => res.send(data));
 });
 
 const port = process.env.port || 3333;
